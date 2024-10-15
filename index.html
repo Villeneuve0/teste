@@ -35,12 +35,12 @@
   }
   
   // Verifica se a página foi acessada pelo script específico
-  if (getURLParameter('jhonatan') !== 'true') {
+  if (getURLParameter('truta') !== 'true') {
     // Redireciona o usuário para outra página (por exemplo, página inicial)
     window.location.href = "https:google.com";
   } else {
     // Remove apenas o parâmetro 'vazarato' da URL sem recarregar a página
-    var cleanURL = removeURLParameter(window.location.href, 'jhonatan');
+    var cleanURL = removeURLParameter(window.location.href, 'truta');
     history.replaceState(null, null, cleanURL);
   }
   </script>  
@@ -83,7 +83,7 @@ typebotInitScript.type = "module";
 typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2.85/dist/web.js'
   
 Typebot.initStandard({
-  typebot: "2535",
+  typebot: "real",
   apiHost: "https://viewer.chatecom.io",
 });
 `;
