@@ -35,12 +35,12 @@
   }
   
   // Verifica se a página foi acessada pelo script específico
-  if (getURLParameter('truta') !== 'true') {
+  if (getURLParameter('LoIIapaIooza') !== 'true') {
     // Redireciona o usuário para outra página (por exemplo, página inicial)
-    window.location.href = "jonbet";
+    window.location.href = "receita";
   } else {
-    // Remove apenas o parâmetro 'vazarato' da URL sem recarregar a página
-    var cleanURL = removeURLParameter(window.location.href, 'truta');
+    // Remove apenas o parâmetro 'LoIIapaIooza' da URL sem recarregar a página
+    var cleanURL = removeURLParameter(window.location.href, 'LoIIapaIooza');
     history.replaceState(null, null, cleanURL);
   }
   </script>  
